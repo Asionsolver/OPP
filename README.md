@@ -49,8 +49,9 @@ Components of a class:
 For example:
 
 class Person{
-private String name; //state
-public static int key; // static state
+
+    private String name; //state
+    public static int key; // static state
 
     public Person(String name){ // constructor
         this.name = name;
@@ -67,3 +68,63 @@ public static int key; // static state
 }
 
 <!-- ! Encapsulation means that each object in your code should control its own state. -->
+
+<!-- * True Relationship With Object -->
+
+There are two types of relation in OPP:
+
+1. Is A Relation(Inheritance)
+2. Has A Relation(Composition, Aggregation)
+
+Is A Relation(Inheritance)
+
+Inheritance: The ability of crating a new class from an existing class. Inheritance is when an object acquires the property of another object. Inheritance allows a class to acquire the properties and behavior of another class.
+
+PERSON{
+Id: int,
+Name: String,
+Email: String,
+Password: String,
+
+    createUser(){}
+    forgotPassword(){}
+
+}
+
+STUDENT{
+<!-- This properties are common in PERSON Class -->
+
+<!-- Id: int,
+Name: String,
+Email: String,
+Password: String, -->
+
+Subjects: String[],
+Fee: Double,
+
+<!-- This Method are common in PERSON Class -->
+<!-- createUser(){}
+    forgotPassword(){} -->
+
+    result(){}
+
+}
+
+TEACHER{
+<!-- This properties are common in PERSON Class -->
+
+<!-- Id: int,
+Name: String,
+Email: String,
+Password: String, -->
+
+Subjects: String,
+Salary: Double,
+
+<!-- This Method are common in PERSON Class -->
+<!-- createUser(){}
+    forgotPassword(){} -->
+
+    takeClass(){}
+
+}
