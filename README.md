@@ -92,6 +92,7 @@ Password: String,
 }
 
 STUDENT{
+
 <!-- This properties are common in PERSON Class -->
 
 <!-- Id: int,
@@ -111,6 +112,7 @@ Fee: Double,
 }
 
 TEACHER{
+
 <!-- This properties are common in PERSON Class -->
 
 <!-- Id: int,
@@ -128,3 +130,5 @@ Salary: Double,
     takeClass(){}
 
 }
+
+<!-- ! Inheritance means, Is A Relationship -->
