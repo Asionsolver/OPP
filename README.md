@@ -132,3 +132,14 @@ Salary: Double,
 }
 
 <!-- ! Inheritance means, Is A Relationship -->
+
+Polymorphism:
+
+1.Compile Time:
+a. Constructor Overloading
+b. Operator Overloading
+c. Function Overloading
+d. Function Overriding
+
+2. Run Time:
+   a. Virtual Function
